@@ -1,0 +1,20 @@
+// scss 全局变量 可以使用sass-resources-loader 暴露全局变量
+$fontsize: 30px;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body,html{
+  width: 100%;
+  font-size: 15px;
+  font-family: 'PingFang SC','Alibaba PuHuiTi','微软雅黑';
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow-x: hidden;
+  touch-action: pan-y;
+}
+ul,li{
+  list-style: none;
+}

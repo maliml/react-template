@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>天眼查</title>
+  <meta name="description" itemprop="description"
+    content="天眼查">
+  <meta name="keywords" content="天眼查">
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=0,width=device-width,viewport-fit=cover">
+  <meta itemprop="image" content="https://cdn.tianyancha.com/std-npo/image/web/sharelogo.png">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+</head>
+
+<body>
+  <div id="root"></div>
+  <script>
+    function setSize() {
+      document.documentElement.style.fontSize = document.documentElement.clientWidth / 3.75 + 'px';
+      window.addEventListener('resize', function (e) {
+        document.documentElement.style.fontSize = document.documentElement.clientWidth / 3.75 + 'px';
+      });
+    }
+    setSize();
+    window.onresize = function () {
+      setSize();
+    }
+  </script>
+  <script src="//static.tianyancha.com/npo-h5/vender/react.dll.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "jsx": "react-native",
+    "target": "ES5",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"],
+      "m/*": ["./src/m/*"],
+      "pc/*": ["./src/pc/*"]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src"
+  ]
+}
